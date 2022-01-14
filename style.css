@@ -29,9 +29,37 @@ body{
     background-color: rgba(5, 92, 255, 0.7);
     box-shadow: 0 0 10px rgba(8, 1, 107, 0.3);}
     body{
-        height: 350px;
+        height: 100vh;
         background-image: url(lapangan.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
+    .container h1{
+        text-align: left;
+        color: #fafafa;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        border-bottom: 4px solid #fac001;
+    }
+    .container label{
+        color: #fff;
+    }
+    .container form input{
+        width: calc(75% - 20px);
+        padding: 8px 10px;
+        margin-bottom: 15px;
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px solid #fac001;
+        color: #fac001;
+        font-size: 20px;
+    }
+    .container form button{
+        width: 100%;
+        padding: 5px 0;
+        border: none;
+        background-color:#2979ff;
+        font-size: 18px;
+        color: #fafafa;
+    } 
