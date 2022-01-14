@@ -1,0 +1,17 @@
+img{
+    margin: 40px;
+    margin-left: 450px;
+}
+body{
+    background-image:url(sekolah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+ margin:  100px;
+    opacity: 0.5;
+
+
+
+}
