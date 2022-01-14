@@ -1,0 +1,74 @@
+/* Navbar */
+.navbar-brand {
+    font-family: viga;
+    font-size: 32px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(lapangan.jpg);
+    background-size: cover;
+    height: 660px;
+    text-align: center;
+}
+
+.jumbotron .display-4 {
+    color: black;
+    margin-top: 150px;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+    color: lightgrey;
+    font-family: Mukta;
+    font-size: 40px;
+}
+
+
+/* untility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link{
+        color:black !important;
+    }
+
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        margin-top: -85px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 33px;
+    }
+
+    .jumbotron .display-4 span {
+        font-size: 73px;
+    }
+
+
+}
