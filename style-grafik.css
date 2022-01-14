@@ -1,17 +1,35 @@
 img{
     margin: 40px;
-    margin-left: 450px;
+    margin-left: 100px;
+margin-bottom: -100px;
+
 }
+
 body{
     background-image:url(sekolah.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1500px;
+
+
 }
 
-.content{
+.latarbelakang{
  margin:  100px;
-    opacity: 0.5;
+    
+}
+.latar{
+    background-color: rgb(163, 163, 197);
+margin-top: 100vh
+
+}
+.ger{
+margin-top: initial;
+
+}
+.back{
+margin-bottom: 1000pt;
 
 
 
 }
+
+
