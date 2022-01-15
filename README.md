@@ -1,10 +1,13 @@
 # Project Mading Kosgoro
 ![](https://img.shields.io/badge/Backend-PHP-purple?logo=php) ![](https://img.shields.io/badge/Frontend-HTML-red?logo=html)
 
+<br></br>
 <div align='center'>
-  <img src="https://cdn-icons.flaticon.com/png/512/2558/premium/2558888.png?token=exp=1642211012~hmac=f89ced5e87e29a1fac15daece216bb01" width="200" height="200" />
+  <img src="https://i.ibb.co/cvCdvdV/undraw-scrum-board-re-wk7v.png" width="800" height="600" />
 </div>
 
+<br></br>
+<br></br>
 <img src="https://cdn-icons.flaticon.com/png/512/999/premium/999436.png?token=exp=1642212239~hmac=ddf1277f75c9c388c06b3582000b38c5" width="20" height="20" /> <b>Cara Setup Project</b>
 <pre>
 - git clone https://github.com/Project-Kosgoro/project-mading
