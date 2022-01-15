@@ -3,11 +3,9 @@
 
 <br></br>
 <div align='center'>
-  <img src="https://i.ibb.co/cvCdvdV/undraw-scrum-board-re-wk7v.png" width="800" height="600" />
+  <img src="https://i.ibb.co/cvCdvdV/undraw-scrum-board-re-wk7v.png" width="600" height="400" />
 </div>
 
-<br></br>
-<br></br>
 <img src="https://cdn-icons.flaticon.com/png/512/999/premium/999436.png?token=exp=1642212239~hmac=ddf1277f75c9c388c06b3582000b38c5" width="20" height="20" /> <b>Cara Setup Project</b>
 <pre>
 - git clone https://github.com/Project-Kosgoro/project-mading
