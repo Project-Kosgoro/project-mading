@@ -1,0 +1,15 @@
+#header{
+	width:101.3%;
+	height:70px;
+	background-color:#f6cc66;
+	margin-top:-10px;
+	margin-left:-10px;
+	margin-right:15px;
+}
+#menu{
+	width:400px;
+	height:550px;
+	background-color:#e2e0db;
+	margin-top:15px;
+	border-radius:10px;
+}

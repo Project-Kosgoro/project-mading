@@ -1,0 +1,102 @@
+#blanket {
+   background-color:#111;
+   opacity: 0.65;
+   background:black;
+   position:absolute;
+   z-index: 8001;
+   top:0px;
+   left:0px;
+   width:100%;
+}
+
+#popUpDiv {
+	position:absolute;
+	background:#fff no-repeat;
+	width:400px;
+	height:400px;
+	border:5px solid #12579b;
+	z-index: 9002;
+	margin-bottom:300px;
+	}
+#popUpDiv table{
+	background:#fff no-repeat;
+	margin-left:20px;
+	margin-top:20px;
+	z-index: 8002;
+	color:#12579b;
+	}
+.header-popup {
+				background:#12579b;
+				width:400px;
+				height:50px;
+				}
+.header-popup .img{
+				margin-left:300px;
+				width:140px;
+				height:50px;
+				}
+
+#popUpDiv a {position:absolute;
+			float:left;
+				}
+input[type="reset"],input[type="submit"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	background-color:#12579b;
+	width:100px;
+	height:30px;
+	color:white;
+	font-size:1em;
+	}
+h6{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	background-color:#12579b;
+	width:100px;
+	height:30px;
+	color:white;
+	font-size:1em;
+	}
+h6:hoverinput[type="reset"]:hover,input[type="submit"]:hover{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	background-color:#042749;
+	width:100px;
+	height:30px;
+	color:white;
+	font-size:1em;
+	}
+input[type="text"],input[type="password"],input[type="email"],input[type="number"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	background-color:#fff;
+	width:250px;
+	height:30px;
+	color:black;
+	font-size:1em;
+	border:2px solid #12579b;
+	}				
+input[type="reset"]:hover,input[type="submit"]:hover{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	background-color:#042749;
+	width:100px;
+	height:30px;
+	color:white;
+	font-size:1em;
+	}

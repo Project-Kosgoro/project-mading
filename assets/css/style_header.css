@@ -1,0 +1,65 @@
+.logo{
+	width:150px;
+	height:30px;
+	margin-left:20px;
+	margin-top:18px;
+}
+.text{
+	width:250px;
+	height:70px;
+	align:center;
+	margin-left:10px;
+	margin-top:-90px;
+}
+
+.logo2{
+	margin-top:10px;
+	width:100px;
+	height:150px;
+}
+.menu-home{
+	line-height:40px;
+	
+	margin-top:20px;
+	margin-left:20px;
+	height:50px;
+	width:200px;
+	background-color:#21307d;
+	border-radius:4px;
+	color:white;
+}
+.menu{
+	margin-left:70px;
+	color:#21307d;
+	position: relative;
+	top: 20px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.menu :hover{
+	width:200px;
+	height:50px;
+	
+}
+.menu :hover, .menu .active{
+	height:200px;
+
+}
+.pembatas{
+	margin-top:-270px;
+	margin-left:220px;
+	width:2px;
+	height:600px;
+	background-color:#d9d7d8;
+}
+.wrap{
+background-image:URL(../gambar/ipb.png);
+background-position:fixed;
+opacity:0.4;
+}
