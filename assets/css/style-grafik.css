@@ -1,35 +1,20 @@
-img{
-    margin: 40px;
-    margin-left: 100px;
-margin-bottom: -100px;
 
-}
 
 body{
-    background-image:url(../gambar/sekolah.jpg);
-    background-size: 1500px;
-
-
+	background: rgb(244, 244, 247);
+	color: white;
 }
 
-.latarbelakang{
- margin:  100px;
-    
+#jumbotron {
+    background-image: url(../gambar/sekolah.jpg);
+    background-size: cover;
+    height: 540px;
+    text-align: center;
+    position: relative;
 }
-.latar{
-    background-color: rgb(163, 163, 197);
-margin-top: 100vh
-
-}
-.ger{
-margin-top: initial;
-
-}
-.back{
-margin-bottom: 1000pt;
+#judul {
+color: black;
 
 
 
 }
-
-

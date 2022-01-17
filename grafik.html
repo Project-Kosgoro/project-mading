@@ -1,35 +1,46 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style-grafik.css">
-    <linkrel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" type="text/css" href="animate.css">    
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
-    <title>grafik prestasi smk kosgoro</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style-grafik.css">
+  <title>grafik </title>
 </head>
 <body>
-<img src="logo kgr.png" alt=""width="450"height="-1">
-<img src="biru.jpg" alt=""width="10"height="-1">
+  <img class="logo" src="../project-mading/assets/gambar/kosgoro logo.png" alt="" width="500"height="83">
+  <h1></h1>
+  <div>
+    <div id="jumbotron" class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 id="judul"class="display-4">GRAFIK PRESTASI <span>DI</span><br> SMK <span>Kosgoro</span></h1>
+        <a href="#" class="btn btn-primary tombol">Input text</a>
+      </div>
+    </div>
+    <!-- akhir Jumbotron -->
 
-<div class="latarbelakang" style="background-color:  rgb(255, 255, 255);padding:20px;">
+      <!-- Container -->
+      <div class="container">
 
-<div>
-    <canvas id="myChart" width="250" height="100"></canvas>
-</div>
-
-
-<script class="ger">
-const ctx = document.getElementById('myChart');
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  <canvas id="myChart" width="400" height="400"></canvas>
+<script>
+const ctx = document.getElementById('myChart').getContext('2d');
 const myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['2015','2016','2017','2019','2021',],
+        labels: ['2013', '2015', '2016', '2017', '2019', '2020','2021'],
         datasets: [{
             label: '# of Votes',
-            data: [3,10,15,5,2],
+            data: [1, 5, 12, 17, 5, 3,2],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -57,10 +68,12 @@ const myChart = new Chart(ctx, {
         }
     }
 });
-
 </script>
-<img class="back"src="biru.jpg" alt=""borderWidth="-1" width="200" height="20">
-
-
+  
+  
+  
+  
+  
+  
 </body>
 </html>
